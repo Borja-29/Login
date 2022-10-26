@@ -44,6 +44,7 @@ public class Vista extends GridPane {
 		add(botonesBox, 0, 4);
 		setColumnSpan(botonesBox, 2);
 		setAlignment(Pos.CENTER);
+		setMinSize(USE_PREF_SIZE, USE_PREF_SIZE);
 		
 	}
 
